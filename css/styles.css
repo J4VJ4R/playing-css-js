@@ -1,0 +1,37 @@
+body {
+  font-family: Roboto, sans-serif; }
+
+.container {
+  max-width: 75rem;
+  width: 100%;
+  margin: 0 auto; }
+
+.container-fluid {
+  width: 100%; }
+
+.bg1 {
+  background-color: chocolate; }
+
+.bg2 {
+  background-color: #8ed394; }
+
+.bg3 {
+  background-color: #1ed2a5; }
+
+.header {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center; }
+  .header__img {
+    padding: var(--spacing);
+    background: var(--base);
+    filter: blur(var(--blur)); }
+  .header__title {
+    padding: 1rem 0; }
+  .header__js {
+    color: var(--base); }
+  .header__controls {
+    padding: 0 0 2rem; }
+
+/*# sourceMappingURL=styles.css.map */

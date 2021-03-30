@@ -1,0 +1,20 @@
+.header{
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  &__img{
+    padding: var(--spacing);
+    background: var(--base);
+    filter: blur(var(--blur));
+  }
+  &__title{
+    padding: 1rem 0;
+  }
+  &__js{
+    color: var(--base);
+  }
+  &__controls{
+    padding: 0 0 2rem;
+  }
+}
